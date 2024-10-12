@@ -1,0 +1,6 @@
+@Kodlamaio.API_HostAddress = http://localhost:5170
+
+GET {{Kodlamaio.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
