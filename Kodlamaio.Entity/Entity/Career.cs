@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kodlamaio.Entity.Entities
+namespace Kodlamaio.Entity.Entity
 {
-    public class AllCourse
+    public class Career
     {
     }
 }

@@ -1,8 +1,8 @@
-using Kodlamaio.UI.Models;
+using Kodlamaio.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Kodlamaio.UI.Controllers
+namespace Kodlamaio.WebUI.Controllers
 {
     public class HomeController : Controller
     {

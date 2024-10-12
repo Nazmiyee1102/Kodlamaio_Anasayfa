@@ -1,4 +1,4 @@
-namespace Kodlamaio.UI.Models
+namespace Kodlamaio.WebUI.Models
 {
     public class ErrorViewModel
     {
