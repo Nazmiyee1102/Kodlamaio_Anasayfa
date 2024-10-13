@@ -21,11 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Kodlamaio.DAL\Kodlamaio.DAL.csproj" />
+    <ProjectReference Include="..\Kodlamaio.Entity\Kodlamaio.Entity.csproj" />
+    <ProjectReference Include="..\Kodlamaio.WebUI\Kodlamaio.WebUI.csproj" />
   </ItemGroup>
 
 </Project>

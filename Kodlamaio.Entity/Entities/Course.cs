@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kodlamaio.Entity.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +26,10 @@ namespace Kodlamaio.Entity.Entities
         public Instructor Instructor { get; set; }
 
         public List<Instructor> Instructors { get; set; }
+
+        public AllCourse AllCourse { get; set; }
+
+        public List<AllCourse> AllCourses { get; set; }
 
 
     }

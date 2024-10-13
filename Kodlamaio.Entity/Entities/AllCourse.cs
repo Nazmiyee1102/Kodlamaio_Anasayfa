@@ -9,7 +9,7 @@ namespace Kodlamaio.Entity.Entity
 {
     public class AllCourse
     {
-        public int CourseId { get; set; }
+        public int AllCourseId { get; set; }
 
         public string CourseImage { get; set; }
 
@@ -26,5 +26,9 @@ namespace Kodlamaio.Entity.Entity
         public Instructor Instructor { get; set; }
 
         public List<Instructor> Instructors { get; set; }
+
+        public Course Course { get; set; }
+
+        public List<Course> Courses { get; set; }
     }
 }
